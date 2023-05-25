@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import SurveyList from './Components/SurveyList/SurveyList';
+import Layout from './Components/Layout/Layout';
+import SurveyAnswersDashboard from './Components/SurveyAnswersDashboard/SurveyAnswersDashboard';
+import QcmQuestionVisualizer from './Components/QcmQuestionVisualizer/QcmQuestionVisualizer';
+import AggregatedDataVisualizer from './Components/AggregatedDataVisualizer/AggregatedDataVisualizer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Layout>
+      <SurveyAnswersDashboard/>
+      <SurveyList/>
+      <AggregatedDataVisualizer/>
+    </Layout>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
