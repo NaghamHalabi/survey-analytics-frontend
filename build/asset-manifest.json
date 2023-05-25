@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/survey-analitcs-frontend/static/css/main.92a02e17.css",
+    "main.js": "/survey-analitcs-frontend/static/js/main.88a2c079.js",
+    "index.html": "/survey-analitcs-frontend/index.html",
+    "main.92a02e17.css.map": "/survey-analitcs-frontend/static/css/main.92a02e17.css.map",
+    "main.88a2c079.js.map": "/survey-analitcs-frontend/static/js/main.88a2c079.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92a02e17.css",
+    "static/js/main.88a2c079.js"
+  ]
+}
