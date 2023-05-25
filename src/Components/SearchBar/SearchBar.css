@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #9DB2BF;
+  padding: 15px;
+}
+
+.search-input {
+  background-color: #DDE6ED;
+  border-radius: 10px;
+}
+
+.search-button {
+  height: 40px;
+  border-radius: 20px;
+  background-color: #27374D;
+  color: #FFFFFF;
+}
+
+.survey-header {
+  font-size: 45px;
+  font-family: Roboto, sans-serif; ;
+  font-weight: bold; 
+  text-align: left; 
+  margin-right: auto;
+  color: #27374D;
+}
