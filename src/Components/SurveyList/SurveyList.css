@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.surveyList {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  margin: 85px;
+
+}
+.tableContainer {
+  margin-top: 2rem;
+}
+  
+.tableHeader {
+  background-color: #526D82;
+}
+  
+.tableHeaderCell {
+  color: white;
+}
+  
