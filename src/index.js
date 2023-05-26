@@ -4,7 +4,6 @@ import './index.css';
 import SurveyList from './Components/SurveyList/SurveyList';
 import Layout from './Components/Layout/Layout';
 import SurveyAnswersDashboard from './Components/SurveyAnswersDashboard/SurveyAnswersDashboard';
-import QcmQuestionVisualizer from './Components/QcmQuestionVisualizer/QcmQuestionVisualizer';
 import AggregatedDataVisualizer from './Components/AggregatedDataVisualizer/AggregatedDataVisualizer';
 
 
