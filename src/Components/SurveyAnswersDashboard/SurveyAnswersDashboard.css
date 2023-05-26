@@ -1,0 +1,10 @@
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 85px;
+}
+  
+.dashboard-card {
+  margin: 10px;
+}
