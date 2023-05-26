@@ -11,15 +11,10 @@ import axios from 'axios';
 
 const SurveyAnswerDashboard = () => {
   const [surveyAnswers, setSurveyAnswers] = useState([]);
-  const [searchValue, setSearchValue] = useState('');
 
   useEffect(() => {
-    if (searchValue !== '') {
-      handleSearch();
-    } else {
-      fetchData();
-    }
-  }, [searchValue]);
+    fetchData();
+  }, []);
 
   const fetchData = async () => {
     try {
